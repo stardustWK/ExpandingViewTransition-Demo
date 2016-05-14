@@ -53,7 +53,6 @@ class ExpandingViewTransitionAnimatorPresent: NSObject, UIViewControllerAnimated
                         self.expandableView.transform = beginTransform
                         self.expandableView.layer.zPosition = beginZPosition
                         
-                        sourceVC.view.alpha = 1
                         transitionContext.completeTransition(true)
                 })
         })
